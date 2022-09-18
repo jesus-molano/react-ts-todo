@@ -1,0 +1,24 @@
+body{
+  padding: 34px;
+}
+
+.create-note{
+  margin-bottom: 1.2rem;
+}
+
+.notes-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(480px, 1fr));
+  gap: 1rem;
+}
+
+.menu-buttons{
+  display: flex;
+  gap: 1rem;
+}
+.notes-placeholder {
+  text-align: center;
+  font-weight: 700;
+  margin-top: 2rem;
+  color: crimson;
+}
